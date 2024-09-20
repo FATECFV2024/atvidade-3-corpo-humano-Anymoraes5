@@ -33,8 +33,16 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R: Não iria ser aceito, pois a variavel 1 é privada para conseguir ter acesso seria necessário torna-lá publica e além disso o tipo do atributo não condiz com a string "2".
+
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R:Não haverá problemas.
+
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R: Se privar o set não terá com acessar no arquivo App.java e nos testes automatizados.
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
