@@ -4,9 +4,9 @@ public class CorpoHumano {
     private int massa;
     private double volume;
     private int densidade;
-    private float altura;
+    private double altura;
 
-    public CorpoHumano(int massa, double volume, int densidade, float altura) {
+    public CorpoHumano(int massa, double volume, int densidade, double altura) {
         this.massa = massa;
         this.volume = volume;
         this.densidade = densidade;
@@ -37,11 +37,11 @@ public class CorpoHumano {
         this.densidade = densidade;
     }
 
-    public float getAltura() {
+    public double getAltura() {
         return altura;
     }
 
-    public void setAltura(float altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
